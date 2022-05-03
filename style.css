@@ -1,0 +1,461 @@
+ul ul {
+    position: relative;
+    display: none;
+
+
+}
+
+ul li:hover ul {
+    position: absolute;
+    display: block;
+
+}
+
+
+.lista {
+    border-top: solid 5px black;
+    border-right: solid 5px black;
+    border-bottom: solid 5px black;
+    border-left: solid 5px black;
+    text-align: center;
+
+}
+
+
+.lista li {
+    list-style: none;
+    display: inline;
+    padding: 50px 50px 50px 50px;
+    margin-right: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.registrate-index {
+    width: 100%;
+    height: 40px;
+
+
+}
+
+.titulo-gxg {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+    text-align: center;
+    background-color: #979A9A;
+    width: 100%;
+    height: 100px;
+
+}
+
+.body {
+    background-color: #979A9A;
+}
+
+.parrafo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: #979A9A;
+    width: 100%;
+    height: 100px;
+}
+
+.imagen {
+    text-align: center;
+
+}
+
+.redes {
+    text-align: center;
+    font-size: 1rem;
+    padding-right: 50px;
+
+
+}
+
+.footer {
+    /* border-top: solid 2px black;
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    border-left: solid 2px black;
+    text-align: center; */
+    flex-direction: column;
+    /* background-color: #797D7F; */
+    width: 100%;
+    height: 130px;
+    background-color: #dcdcdc;
+    border-top: solid 5px #fff5ee;
+    border-right: solid 5px #fff5ee;
+    border-bottom: solid 5px #fff5ee;
+    border-left: solid 5px #fff5ee;
+
+
+}
+
+.redes-lista {
+    display: flex;
+    flex-direction: left;
+    justify-content: space-around;
+    text-align: left;
+    list-style: none;
+    padding-right: 100px;
+
+
+}
+
+.redes-footer {
+    width: 100%;
+    height: 60px;
+}
+
+.contacto {
+    text-align: right;
+    font-size: 1rem;
+    padding-left: 40px;
+
+}
+
+.top {
+    text-align: right;
+    padding-left: 20px;
+}
+
+/*html registrate¨*/
+/* header*/
+
+.registrate-body {
+    background-color: #dcdcdc;
+
+}
+
+.header {
+    background-color: #dcdcdc;
+    border-top: solid 5px #fff5ee;
+    border-right: solid 5px #fff5ee;
+    border-bottom: solid 5px #fff5ee;
+    border-left: solid 5px #fff5ee;
+
+}
+
+
+.logo {
+    background-color: #dcdcdc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+/*main*/
+
+.main {
+    background-color: #dcdcdc;
+}
+
+.titulo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-left: 200px;
+    background: none;
+}
+
+.registrate {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-left: 200px;
+    background: none;
+
+}
+
+/*lista main*/
+.lista-main {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 200px;
+
+}
+
+/* galeria de imagenes*/
+.galeria-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+    gap: 15px;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-box-shadow: 10px 11px 12px -8px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 10px 11px 12px -8px rgba(0, 0, 0, 0.37);
+    box-shadow: 10px 11px 12px -8px rgba(0, 0, 0, 0.37);
+}
+
+.galeria-item {
+    position: relative;
+}
+
+.galeria-titulo {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background-color: rgba(0 0, 0, 0.656);
+    width: 100%;
+    padding: 5px 10px;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*footer registrate*/
+
+redes- .imagen-2 {
+    display: block;
+}
+
+/*header iniciar sesion*/
+
+.header-is {
+    background-color: #dcdcdc;
+    border-top: solid 5px #fff5ee;
+    border-right: solid 5px #fff5ee;
+    border-bottom: solid 5px #fff5ee;
+    border-left: solid 5px #fff5ee;
+}
+
+.gamexgame {
+    padding-left: 40px;
+}
+
+/*main iniciar sesion*/
+.imagen12 {
+    width: 1850px;
+    height: 955px;
+}
+
+.sesion-body {
+    background-color: #dcdcdc;
+}
+
+.titulo-is {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.nombredeusuario {
+    text-align: center;
+    padding-right: 800px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.contraseña {
+    text-align: center;
+    padding-right: 800px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.olvitu {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.crearcuenta {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.footer-is {
+    padding-top: 10px;
+    width: 100%;
+    height: 130px;
+    margin-top: 100px;
+    position: absolute;
+    background-color: #dcdcdc;
+    border-top: solid 5px #fff5ee;
+    border-right: solid 5px #fff5ee;
+    border-left: solid 5px #fff5ee;
+}
+
+/* html juegos*/
+
+.body-juegos {
+    background-color: #dcdcdc;
+}
+
+.header-juegos {
+    text-align: center;
+    border-top: solid 10px #fff5ee;
+    border-right: solid 10px #fff5ee;
+    border-bottom: solid 10px #fff5ee;
+    border-left: solid 10px #fff5ee;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.lista-juegos ul {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.lista-juegos li {
+    list-style-type: none;
+    display: inline;
+    padding: 40px 40px 40px 40px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.footer-juegos {
+    padding-top: 600px;
+
+}
+
+/* responsive registrate.html*/
+
+/* mobile*/
+@media (max-width:450px) {
+
+    /* responsive header registrate*/
+    .logo {
+        background-color: #dcdcdc;
+        padding-left: 100px;
+        text-align: center;
+    }
+
+    /* responsive main registrate*/
+
+    .galeria-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 220px;
+    }
+
+
+    .titulo {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: left;
+        padding-left: 110px;
+        background: none;
+    }
+
+    .galeria-titulo {
+        font-size: 18px;
+    }
+
+    .registrate {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        padding-left: 150px;
+        background: none;
+    }
+
+    .lista-main {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        text-align: left;
+        font-size: large;
+        font-family: 'Courier New', Courier, monospace;
+        padding-bottom: 200px;
+        padding-top: 100px;
+    }
+
+    /* responsive footer registrate*/
+
+    .redes {
+        padding-right: 50px;
+    }
+
+
+
+
+
+    /*responsive index.html*/
+
+    /*responsive header index*/
+
+    ul ul {
+        position: relative;
+        display: none;
+
+
+    }
+
+    ul li:hover ul {
+        position: absolute;
+        display: block;
+
+    }
+
+
+    .lista {
+        font-size: large;
+        border-top: solid 5px black;
+        border-right: solid 5px black;
+        border-bottom: solid 5px black;
+        border-left: solid 5px black;
+        text-align: center;
+    }
+
+
+    .registrate-index {
+        width: 100%;
+        height: 200px;
+
+
+    }
+
+    /* responsive main index*/
+
+    .titulo-gxg {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 3rem;
+        text-align: center;
+        background-color: #979A9A;
+        width: 100%;
+        height: 50px;
+        padding-right: 100px;
+    }
+
+
+
+
+    .imagen {
+        display: none;
+
+    }
+
+    .parrafo {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+        text-align: center;
+        background-color: #979A9A;
+        width: 100%;
+        height: 100px;
+        padding-bottom: 400px;
+        padding-left: 20px;
+    }
+
+
+    /* tablet*/
+    @media (min-width:451px) and (max-width:960px) {
+        .galeria-container {
+            display: grid;
+            grid-template-columns: 2, 1fr;
+        }
+    }
+
+}
